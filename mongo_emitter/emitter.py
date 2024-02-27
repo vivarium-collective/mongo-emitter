@@ -1,4 +1,3 @@
-import copy
 import os
 import uuid
 import orjson
@@ -77,7 +76,6 @@ class DatabaseEmitter(Emitter):
             '_default': 'simulations'
         },
     }
-
 
     @classmethod
     def create_indexes(cls, table: Any, columns: List[Any]) -> None:
@@ -184,7 +182,6 @@ class DatabaseEmitter(Emitter):
         self.write_emit(table, emit_data)
         print(emit_data)
         return {}
-
 
 
 def format_data(table_id: str, time: Optional[Union[int, str]] = None, **values: Any) -> Dict[str, Any]:

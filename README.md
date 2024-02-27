@@ -70,17 +70,3 @@ Here is one:
 6. Now you can launch MongoDB by running this script:
 
         $ process_bigraph_work/mongo.sh
-
-## Tutorial
-
-To get started with Bigraph-viz, explore our resources: 
-* [Process Bigraphs Intro](https://vivarium-collective.github.io/process-bigraph/notebooks/process-bigraphs.html).
-* [Bigraph Schema Basics Tutorial](https://vivarium-collective.github.io/bigraph-viz/notebooks/basics.html). For an introduction to the basic elements of process-bigraph schema.
-* [Formatting Tutorial](https://vivarium-collective.github.io/bigraph-viz/notebooks/format.html) for examples
-about how to adjust the final look of your bigraph figure.
-* [Ecoli](https://raw.githubusercontent.com/vivarium-collective/bigraph-viz/main/doc/_static/ecoli.png) for the wiring
-diagraph of a whole-cell E. coli model.
-
-## License
-
-Bigraph-schema is open-source software released under the [Apache 2 License](https://github.com/vivarium-collective/process-bigraph/blob/main/LICENSE).
